@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Каталог</title>
+        
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <script defer src="js/jquery-3.6.1.min.js"></script>
+        <script defer src="js/jquery-ui.min.js"></script>
+        <script defer src="js/slider.js"></script>
+        <script defer src="js/main.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <section class="container">
+                <div id="city" title="Если ваш город определен неправильно, нажмите для выбора правильного города">Ваш город: <span></span></div>
+            </section>
+            <section class="container search">
+				<h1><a href="index.html">Боевые жилетки</a></h1>
+				<div class="searchForm">
+					<input type="search" name="q" placeholder="Поиск по сайту">
+					<input type="submit" value="Найти">
+				</div>
+				
+				<a href="#" title="Личный кабинет">&#128100;</a>
+				<a href="order.html" title="Корзина заказов">&#128722;</a>
+			<!--Здесь должны быть лого, форма поиска, входы в личный кабинет и корзину -->
+			</section>
+            <section class="container">
+                <nav class="topmenu">
+                    <a href="index.html">
+						<span class="mini" title="Главная страница">&#128463;</span>
+						<span class="txt">Главная страница</span>
+					</a>
+                    <a href="catalog.html" title="Каталог товаров, здесь вы можете увидеть наш ассортимент">
+						<span class="mini" title="Каталог товаров, здесь вы можете увидеть наш ассортимент">&#128247;</span>
+						<span class="txt">Каталог</span>
+					</a>
+                    <a href="product.html" title="Карточка товара, здесь вы можете рассмотреть каждый товар и его характеристики в подробностях">
+						<span class="mini" title="Карточка товара, здесь вы можете рассмотреть каждый товар и его характеристики в подробностях">&#128085;</span>
+						<span class="txt">Товар</span>
+					</a>
+                    <a href="order.html" title="Здесь вы можете оформить заказ, включая параметры доставки">
+						<span class="mini" title="Здесь вы можете оформить заказ, включая параметры доставки">&#128722;</span>
+						<span class="txt">Форма заказа</span>
+					</a>
+                    <a href="contacts.html" title="Наши контакты">	
+						<span class="mini" title="Наши контакты">&#9743;</span>
+						<span class="txt">Контакты</span>
+					</a>
+                </nav>
+            </section>
+        </header>
+        
+        <main class="catalog">
+            <section class="container">
+                <aside>                    
+                    <nav class="catmenu">
+                        <p>Каталог</p>
+                        <ul>
+                            <li>
+                                <a href="#"><span>Футболки</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><span>Нашивки</span></a>
+                                
+                                <ul>
+                                    <li>
+                                        <a href="#"><span>Большие нашивки на спину</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Нашивки вышитые</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Нашивки печатные</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span>Сценические костюмы</span></a>
+                                
+                                <ul>
+                                    <li>
+                                        <a href="#"><span>Наручи</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Поножи</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Инвентарь</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span>Патронташи</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><span>Значки</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><span>"Боевая" жилетка "под ключ"</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- /catmenu -->
+                    
+                </aside>
+                
+                <article>
+                    <div class="cat-item patch">
+						<img src="images/Artillery.jpg">Большая нашивка на спину<br>
+						Цена: 1200 рублей
+					</div>
+                    <div class="cat-item patch">
+						<img src="images/Helloween.jpg">Большая нашивка на спину<br>
+						Цена: 1200 рублей
+					</div>
+                    <div class="cat-item shirt">
+						<img src="images/MW.jpg">Футболка из качественного плотного хлопка<br>
+						Цена: 2500 рублей
+					</div>
+                    <div class="cat-item shirt">
+						<img src="images/Kreator.jpg">Футболка из качественного плотного хлопка<br>
+						Цена: 2500 рублей
+					</div>
+                    <div class="cat-item vest"><img src="images/Vest5.jpg"><a href="product.html">"Боевая" жилетка "под ключ"<br>
+						Цена: 19499 рублей</a></div>
+                    
+                </article>
+            </section>
+        </main>
+        
+        <footer>
+            <section class="container">
+				<div>
+				<h4>О компании</h4>
+					<ul>
+						<li>
+							<a href="contacts.html">Контакты</a>
+						</li>
+						<li>
+							<a href="#">Вакансии</a>
+						</li>
+						<li>
+							<a href="#">Пользовательское соглашение</a>
+						</li>
+						<li>
+							<a href="#">Политика конфеденциальности</a>
+						</li>
+						<li>
+							<a href="#">Карта сайта</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h4>Клиентам</h4>
+					<ul>
+						<li>
+							<a href="#">Доставка</a>
+						</li>
+						<li>
+							<a href="#">Оплата</a>
+						</li>
+						<li>
+							<a href="#">Гарантии</a>
+						</li>
+						<li>
+							<a href="#">Обмен/Возврат</a>
+						</li>
+						<li>
+							<a href="#">Вопрос-ответ</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tShirtSl">
+					<a href="https://tshirtslayer.com/"></a>
+				</div>
+				<div class="metallum">
+					<a href="https://www.metal-archives.com/"></a>
+				</div>
+			</section>
+            <section class="container">&#169; VAIgnatiev 2022<br>
+					Боевые жилетки 2022 (на правах правопреемника MetalChestMerchandise &#169;) </section>
+        </footer>
+    </body>
+</html>

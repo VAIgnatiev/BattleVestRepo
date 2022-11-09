@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Контакты</title>
+        
+        <link rel="stylesheet" href="css/jquery-ui.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <script defer src="js/jquery-3.6.1.min.js"></script>
+        <script defer src="js/jquery-ui.min.js"></script>
+        <script defer src="js/slider.js"></script>
+        <script defer src="js/main.js"></script>
+    </head>
+    
+    <body>
+        <header>
+             <section class="container">
+                <div id="city" title="Если ваш город определен неправильно, нажмите для выбора правильного города">Ваш город: <span></span></div>
+            </section>
+            <section class="container search">
+				<h1><a href="index.html">Боевые жилетки</a></h1>
+				<div class="searchForm">
+					<input type="search" name="q" placeholder="Поиск по сайту">
+					<input type="submit" value="Найти">
+				</div>
+				
+				<a href="#" title="Личный кабинет">&#128100;</a>
+				<a href="order.html" title="Корзина заказов">&#128722;</a>
+			<!--Здесь должны быть лого, форма поиска, входы в личный кабинет и корзину -->
+			</section>
+            <section class="container">
+                <nav class="topmenu">
+                    <a href="index.html">
+						<span class="mini" title="Главная страница">&#128463;</span>
+						<span class="txt">Главная страница</span>
+					</a>
+                    <a href="catalog.html" title="Каталог товаров, здесь вы можете увидеть наш ассортимент">
+						<span class="mini" title="Каталог товаров, здесь вы можете увидеть наш ассортимент">&#128247;</span>
+						<span class="txt">Каталог</span>
+					</a>
+                    <a href="product.html" title="Карточка товара, здесь вы можете рассмотреть каждый товар и его характеристики в подробностях">
+						<span class="mini" title="Карточка товара, здесь вы можете рассмотреть каждый товар и его характеристики в подробностях">&#128085;</span>
+						<span class="txt">Товар</span>
+					</a>
+                    <a href="order.html" title="Здесь вы можете оформить заказ, включая параметры доставки">
+						<span class="mini" title="Здесь вы можете оформить заказ, включая параметры доставки">&#128722;</span>
+						<span class="txt">Форма заказа</span>
+					</a>
+                    <a href="contacts.html" title="Наши контакты">	
+						<span class="mini" title="Наши контакты">&#9743;</span>
+						<span class="txt">Контакты</span>
+					</a>
+                </nav>
+            </section>
+        </header>
+        
+        <main>
+            <section class="container contacts">
+				<div><h3>Наши контакты:</h3>
+				<P>123423, г. Москва, проспект Маршала Жукова, д. 23,
+				в двух минутах ходьбы от станции метро "Народное ополчение"
+				<br>				
+				Наш телефон: +7-977-173-69-25</p>
+				<a href="#"><img src="images/telegramLogo.png">Мы в Telegram</a>
+				<a href="#"><img src="images/VKLogo.png">Мы вКонтакте</a>
+				<a href="#"><img src="images/YTLogo.png" alt="YouTube">Мы на YouTube</a>
+				</div>
+               <div class="wrapper">
+				   <div class="mb-3">
+							<label for="name" class="form-label">Ваше имя</label>
+							<input type="text" class="form-control" id="name" name="name">
+						</div>
+						<div class="mb-3">
+							<label for="mail" class="form-label">Контактный email</label>
+							<input type="text" class="form-control" id="mail" name="mail">
+						</div>
+						<div class="mb-3">
+							<label for="phone" class="form-label">Контактный телефон</label>
+							<input type="text" class="form-control" id="phone" name="phone">
+						</div>
+						<div class="mb-3">
+							<label for="comm" class="form-label">Ваше сообщение</label>
+							<textarea class="form-control" id="comm" name="comm" rows="3"></textarea>
+						</div>
+						<div class="mb-3 form-check">
+							<input type="checkbox" class="form-check-input" id="agree" name="agree">
+							<label class="form-check-label" for="agree">Согласен на обработку моих персональных данных</label>
+					</div>
+					<button type="button" class="btn btn-primary submit">Отправить сообщение</button>
+				</div>
+            </section>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.0178962981738!2d37.48494852711463!3d55.77525020219194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5491aba653d09%3A0xf6131fc00cd2abbd!2z0L_RgNC-0YHQvy4g0JzQsNGA0YjQsNC70LAg0JbRg9C60L7QstCwLCAyMywg0JzQvtGB0LrQstCwLCAxMjM0MjM!5e0!3m2!1sru!2sru!4v1667821006068!5m2!1sru!2sru" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </main>
+        
+        <footer>
+            <section class="container">
+				<div>
+				<h4>О компании</h4>
+					<ul>
+						<li>
+							<a href="contacts.html">Контакты</a>
+						</li>
+						<li>
+							<a href="#">Вакансии</a>
+						</li>
+						<li>
+							<a href="#">Пользовательское соглашение</a>
+						</li>
+						<li>
+							<a href="#">Политика конфеденциальности</a>
+						</li>
+						<li>
+							<a href="#">Карта сайта</a>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h4>Клиентам</h4>
+					<ul>
+						<li>
+							<a href="#">Доставка</a>
+						</li>
+						<li>
+							<a href="#">Оплата</a>
+						</li>
+						<li>
+							<a href="#">Гарантии</a>
+						</li>
+						<li>
+							<a href="#">Обмен/Возврат</a>
+						</li>
+						<li>
+							<a href="#">Вопрос-ответ</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tShirtSl">
+					<a href="https://tshirtslayer.com/"></a>
+				</div>
+				<div class="metallum">
+					<a href="https://www.metal-archives.com/"></a>
+				</div>
+			</section>
+            <section class="container">&#169; VAIgnatiev 2022<br>
+					Боевые жилетки 2022 (на правах правопреемника MetalChestMerchandise &#169;) </section>
+        </footer>
+    </body>
+</html>
